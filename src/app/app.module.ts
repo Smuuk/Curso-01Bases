@@ -7,6 +7,7 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { ListadoComponent } from './heroes/listado/listado.component';
 import { HeroesModule } from './heroes/listado/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { ATLAModule } from './atla/atla.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContadorModule } from './contador/contador.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule ,
+    ATLAModule
   ],
   providers: [],
   bootstrap: [AppComponent]
